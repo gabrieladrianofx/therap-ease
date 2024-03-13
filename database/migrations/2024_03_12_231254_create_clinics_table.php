@@ -16,7 +16,6 @@ return new class extends Migration
         'street_address',
         'city',
         'zip_code',
-        'state',
         'uf',
         'ddd'
     ];
