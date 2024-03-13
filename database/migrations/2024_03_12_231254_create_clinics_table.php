@@ -9,17 +9,6 @@ return new class extends Migration
 {
     use HasUuids;
 
-    protected $fillable = [
-        'CNPJ',
-        'name_clinic',
-        'email',
-        'street_address',
-        'city',
-        'zip_code',
-        'uf',
-        'ddd'
-    ];
-
     /**
      * Run the migrations.
      */
