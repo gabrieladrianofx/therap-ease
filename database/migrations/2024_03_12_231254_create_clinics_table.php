@@ -6,6 +6,18 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    protected $fillable = [
+        'CNPJ',
+        'name_clinic',
+        'email',
+        'street_address',
+        'city',
+        'zip_code',
+        'state',
+        'uf',
+        'ddd'
+    ];
+
     /**
      * Run the migrations.
      */
